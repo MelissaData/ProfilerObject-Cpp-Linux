@@ -35,7 +35,7 @@ And return
 ## Tested Environments
 - Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required Files and Programs
 
@@ -93,8 +93,8 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/ProfilerObject-Cpp-Linux
-$ cd ProfilerObject-Cpp-Linux
+git clone https://github.com/MelissaData/ProfilerObject-Cpp-Linux
+cd ProfilerObject-Cpp-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -150,11 +150,11 @@ Parameters:
     
   The script will prompt the user for a csv file, then use the provided csv file to test Profiler Object.  For example:
   ```
-  $ ./MelissaProfilerObjectLinuxCpp.sh
+  ./MelissaProfilerObjectLinuxCpp.sh
   ```
   For quiet mode:
   ```
-  $ ./MelissaProfilerObjectLinuxCpp.sh --quiet
+  ./MelissaProfilerObjectLinuxCpp.sh --quiet
   ```
 
 - Command Line
@@ -163,13 +163,13 @@ Parameters:
 
   With all parameters:
   ```
-  $ ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv"
-  $ ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
+  ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv"
+  ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
   ```
   For quiet mode:
   ```
-  $ ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
-  $ ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
+  ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
+  ./MelissaProfilerObjectLinuxCpp.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
   ```
 
 This is the expected outcome of a successful setup for interactive mode:

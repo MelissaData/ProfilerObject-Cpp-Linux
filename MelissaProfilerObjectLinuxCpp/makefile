@@ -3,7 +3,7 @@
 R = .
 CXX = g++
 CXXFLAGS = -Wall -Wextra -pedantic -std=c++17 -g -pthread -m64
-LDLIBS = -L/home/emaiiii/MdLinuxExamples/ProfilerObject-Cpp-Linux/MelissaProfilerObjectLinuxCpp/Build -Wl,--no-as-needed,-ldl,-rpath,$(DIR) -lmdProfiler
+LDLIBS = -L/mnt/f/TEST/linux/ProfilerObject-Cpp-Linux/MelissaProfilerObjectLinuxCpp/Build -Wl,--no-as-needed,-ldl,-rpath,$(DIR) -lmdProfiler
 RM = rm -f
 OUT_DIR = Build
 
